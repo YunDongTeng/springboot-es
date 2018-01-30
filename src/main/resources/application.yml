@@ -1,0 +1,7 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 192.168.15.38:9300,192.168.15.31:9300
+logging:
+  config: classpath:logback.xml
